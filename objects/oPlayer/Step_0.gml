@@ -1,9 +1,7 @@
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
-//unused
-key_down = keyboard_check(vk_down)
-key_action = keyboard_check(vk_shift)
+key_jump = true;
+
 
 
 //calculate movement

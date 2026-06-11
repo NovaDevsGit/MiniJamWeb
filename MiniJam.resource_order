@@ -2,5 +2,6 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"oTest","order":1,"path":"objects/oTest/oTest.yy",},
+    {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
   ],
 }

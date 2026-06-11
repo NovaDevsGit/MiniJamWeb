@@ -2,7 +2,7 @@ hsp_final = 0;
 hsp_f = 0;
 vsp_final = 0;
 vsp_f = 0;
-par_collide = [];
+par_collide = [oWall];
 
 
 
