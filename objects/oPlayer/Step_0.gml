@@ -1,5 +1,6 @@
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+key_shoot = keyboard_check(mb_any) || keyboard_check(vk_space);
 key_jump = true;
 
 
@@ -10,10 +11,10 @@ var move = key_right - key_left;
 
 hsp = move * walksp;
 vsp = vsp + grv;
-	
-	
 
-if (key_jump) && (canjump>1)
+
+
+if (key_jump) && (canjump>1) && (sign(vsp) != -1)
 {
 	vsp = jumpsp;
 	inair = true;
@@ -34,24 +35,33 @@ vsp_f = vsp_final - floor(abs(vsp_final))*sign(vsp_final);
 vsp_final -= vsp_f;
  
 //same old place_meeting collision code.
-if (place_meeting(x+hsp_final,y,par_collide))
-{
-	var inc = sign(hsp_final);
-	while (!place_meeting(x+inc,y,par_collide)) x+= inc;
-	hsp_final = 0;
-	hsp = 0;
-}
+//if (place_meeting(x+hsp_final,y,par_collide))
+//{
+//	var inc = sign(hsp_final);
+//	while (!place_meeting(x+inc,y,par_collide)) x+= inc;
+//	hsp_final = 0;
+//	hsp = 0;
+//}
 
  
-if (place_meeting(x,y+vsp_final,par_collide))
+//if (place_meeting(x,y+vsp_final,par_collide))
+//{
+//	var inc = sign(vsp_final);
+//	while (!place_meeting(x,y+inc,par_collide)) y+= inc;
+//	vsp_final = 0;
+//	vsp = 0;
+//}
+
+if (place_meeting(x,y+vsp_final,par_collide) && sign(vsp_final) == 1)
 {
 	var inc = sign(vsp_final);
 	while (!place_meeting(x,y+inc,par_collide)) y+= inc;
 	vsp_final = 0;
 	vsp = 0;
 }
-	
-	
+
+
+
 y+=vsp_final;
 x+=hsp_final;
 //end of pasted in
