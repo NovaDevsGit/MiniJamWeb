@@ -2,8 +2,8 @@ hsp_final = 0;
 hsp_f = 0;
 vsp_final = 0;
 vsp_f = 0;
-par_collide = [layer_tilemap_get_id("tColl"), oGate, oWall];
-//par_death = [layer_tilemap_get_id("tDeath")];
+par_collide = [];
+
 
 
 
