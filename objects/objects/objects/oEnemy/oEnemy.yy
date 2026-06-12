@@ -9,8 +9,8 @@
   "name":"oEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"MiniJam",
+    "path":"MiniJam.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
