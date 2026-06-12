@@ -1,20 +1,20 @@
 
 
-//move destination
-if (instance_exists(follow))
-{
-	xTo = follow.x;
-	yTo = follow.y;
-}
+////move destination
+//if (instance_exists(follow))
+//{
+//	xTo = follow.x;
+//	yTo = follow.y;
+//}
 
-// move object position
-x += (xTo - x) / 25;
-y += (yTo - y) / 25;
+//// move object position
+//x += (xTo - x) / 25;
+//y += (yTo - y) / 25;
 
-//update camera view
-cam_x = x-view_w_half;
-cam_y = y-view_h_half;
-camera_set_view_pos(cam,cam_x,cam_y);
+////update camera view
+//cam_x = x-view_w_half;
+//cam_y = y-view_h_half;
+//camera_set_view_pos(cam,cam_x,cam_y);
 
 
 

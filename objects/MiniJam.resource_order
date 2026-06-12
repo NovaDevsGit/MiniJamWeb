@@ -1,13 +1,9 @@
 {
-  "FolderOrderSettings":[
-    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
-    {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
-  ],
+  "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"oCamera","order":3,"path":"objects/oCamera/oCamera.yy",},
-    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oPlatform","order":4,"path":"objects/oPlatform/oPlatform.yy",},
     {"name":"oTest","order":1,"path":"objects/oTest/oTest.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
-    {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sPlatform","order":3,"path":"sprites/sPlatform/sPlatform.yy",},
   ],
 }

@@ -1,20 +1,12 @@
-hsp_final = 0;
-hsp_f = 0;
-vsp_final = 0;
-vsp_f = 0;
-par_collide = [oWall];
-
-
-
+window_set_size(1600, 900);
+disw = display_get_width();
+dish = display_get_height();
+window_set_position(disw/10, dish/10);
 
 hsp = 0;
 vsp = 0;
-grv = 0.25;
+
+downwardsp = 0;
 walksp = 2;
-jumpsp = -6;
-
-
-inair = false;
-canjump = true;
-//MFS is scaler
-maxfallspeed = 6;
+jumpsp = -4;
+grv = 0.15;
