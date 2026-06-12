@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemy",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oPlatform",
+  "eventList":[],
   "managed":true,
-  "name":"oEnemy",
+  "name":"oPlatform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"MiniJam",
+    "path":"MiniJam.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sPlatform",
+    "path":"sprites/sPlatform/sPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

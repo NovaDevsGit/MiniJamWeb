@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oPlatform","order":4,"path":"objects/oPlatform/oPlatform.yy",},
+    {"name":"oTest","order":1,"path":"objects/oTest/oTest.yy",},
+    {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
+    {"name":"sPlatform","order":3,"path":"sprites/sPlatform/sPlatform.yy",},
+  ],
+}
